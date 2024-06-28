@@ -68,6 +68,11 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="393" height="120"/>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="foi-6O-hiW" id="SBK-wm-Y7w"/>
+                                            <outlet property="iconView" destination="eHB-4N-8Cy" id="loO-rG-pPO"/>
+                                            <outlet property="pointLabel" destination="ML0-fi-hQh" id="0lf-Wf-oxH"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TodayBenefitCell" id="vw1-f6-y5O" customClass="TodayBenefitCell" customModule="TossBenefitTab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="130" width="393" height="250"/>
@@ -84,6 +89,12 @@
                                                     </constraints>
                                                     <imageReference key="image" image="sparkles" catalog="system" renderingMode="original"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x49-m7-0DI">
+                                                    <rect key="frame" x="165.66666666666666" y="120" width="62" height="29"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4F-vj-vyx">
                                                     <rect key="frame" x="145" y="169" width="103" height="56"/>
                                                     <color key="backgroundColor" name="AccentColor"/>
@@ -94,12 +105,6 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x49-m7-0DI">
-                                                    <rect key="frame" x="165.66666666666666" y="120" width="62" height="29"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="w4F-vj-vyx" firstAttribute="top" secondItem="x49-m7-0DI" secondAttribute="bottom" constant="20" id="0jp-v9-y2b"/>
@@ -112,6 +117,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="393" height="250"/>
+                                        <connections>
+                                            <outlet property="ctaButton" destination="w4F-vj-vyx" id="Mf2-i1-M1g"/>
+                                            <outlet property="titleLabel" destination="x49-m7-0DI" id="ttL-VK-GcY"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BenefitCell" id="lmj-Zz-Jyw" customClass="BenefitCell" customModule="TossBenefitTab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="390" width="393" height="130"/>
@@ -152,6 +161,11 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="393" height="130"/>
+                                        <connections>
+                                            <outlet property="benefitImage" destination="edw-W9-D4C" id="Qmv-WX-OFE"/>
+                                            <outlet property="descriptionLabel" destination="dMf-ox-wOD" id="jxr-sU-aBu"/>
+                                            <outlet property="titleLabel" destination="FF3-7A-vPn" id="fMX-Jl-Ag2"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
