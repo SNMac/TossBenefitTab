@@ -20,6 +20,9 @@
 		5BFBEFAA2C2E98C500549F5F /* ButtonBenefitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBEFA92C2E98C500549F5F /* ButtonBenefitViewController.swift */; };
 		5BFBEFAD2C2E992300549F5F /* BenefitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBEFAC2C2E992300549F5F /* BenefitDetails.swift */; };
 		5BFBEFAF2C2EAAEB00549F5F /* BenefitGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBEFAE2C2EAAEB00549F5F /* BenefitGuideView.swift */; };
+		5BFBEFB12C2FEBF600549F5F /* BenefitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBEFB02C2FEBF600549F5F /* BenefitListViewModel.swift */; };
+		5BFBEFB32C2FF1B900549F5F /* MyPointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBEFB22C2FF1B900549F5F /* MyPointViewModel.swift */; };
+		5BFBEFB52C2FF31E00549F5F /* ButtonBenefitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBEFB42C2FF31E00549F5F /* ButtonBenefitViewModel.swift */; };
 		94BD3356285D5C9E008DA3B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3355285D5C9E008DA3B7 /* AppDelegate.swift */; };
 		94BD3358285D5C9E008DA3B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3357285D5C9E008DA3B7 /* SceneDelegate.swift */; };
 		94BD335D285D5C9E008DA3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BD335B285D5C9E008DA3B7 /* Main.storyboard */; };
@@ -61,6 +64,9 @@
 		5BFBEFA92C2E98C500549F5F /* ButtonBenefitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBenefitViewController.swift; sourceTree = "<group>"; };
 		5BFBEFAC2C2E992300549F5F /* BenefitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitDetails.swift; sourceTree = "<group>"; };
 		5BFBEFAE2C2EAAEB00549F5F /* BenefitGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitGuideView.swift; sourceTree = "<group>"; };
+		5BFBEFB02C2FEBF600549F5F /* BenefitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitListViewModel.swift; sourceTree = "<group>"; };
+		5BFBEFB22C2FF1B900549F5F /* MyPointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPointViewModel.swift; sourceTree = "<group>"; };
+		5BFBEFB42C2FF31E00549F5F /* ButtonBenefitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBenefitViewModel.swift; sourceTree = "<group>"; };
 		94BD3352285D5C9E008DA3B7 /* TossBenefitTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossBenefitTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BD3355285D5C9E008DA3B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94BD3357285D5C9E008DA3B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +125,7 @@
 				5BFBEF9C2C2D540800549F5F /* TodayBenefitCell.swift */,
 				5BFBEF9E2C2D541700549F5F /* BenefitCell.swift */,
 				5BFBEF922C2C533700549F5F /* BenefitListViewController.swift */,
+				5BFBEFB02C2FEBF600549F5F /* BenefitListViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -128,6 +135,7 @@
 			children = (
 				5BFBEFA22C2E8BB200549F5F /* MyPoint.storyboard */,
 				5BFBEFA42C2E8BC900549F5F /* MyPointViewController.swift */,
+				5BFBEFB22C2FF1B900549F5F /* MyPointViewModel.swift */,
 			);
 			path = MyPoint;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			children = (
 				5BFBEFA72C2E98B200549F5F /* ButtonBenefit.storyboard */,
 				5BFBEFA92C2E98C500549F5F /* ButtonBenefitViewController.swift */,
+				5BFBEFB42C2FF31E00549F5F /* ButtonBenefitViewModel.swift */,
 				5BFBEFAE2C2EAAEB00549F5F /* BenefitGuideView.swift */,
 			);
 			path = Benefit;
@@ -336,8 +345,11 @@
 				5BFBEF9D2C2D540800549F5F /* TodayBenefitCell.swift in Sources */,
 				5BFBEFAA2C2E98C500549F5F /* ButtonBenefitViewController.swift in Sources */,
 				94BD3356285D5C9E008DA3B7 /* AppDelegate.swift in Sources */,
+				5BFBEFB12C2FEBF600549F5F /* BenefitListViewModel.swift in Sources */,
 				5BFBEF9B2C2D53EC00549F5F /* MyPointCell.swift in Sources */,
+				5BFBEFB32C2FF1B900549F5F /* MyPointViewModel.swift in Sources */,
 				94BD3358285D5C9E008DA3B7 /* SceneDelegate.swift in Sources */,
+				5BFBEFB52C2FF31E00549F5F /* ButtonBenefitViewModel.swift in Sources */,
 				5BFBEFAD2C2E992300549F5F /* BenefitDetails.swift in Sources */,
 				5BFBEFA52C2E8BC900549F5F /* MyPointViewController.swift in Sources */,
 				5BFBEFAF2C2EAAEB00549F5F /* BenefitGuideView.swift in Sources */,
